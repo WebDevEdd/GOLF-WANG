@@ -4,15 +4,46 @@
       box-sizing: border-box;
       font-family: 'Montserrat', sans-serif;
 }
+body{
+      overflow-x: hidden;
+}
 .nav-wrapper{
       width: 100%;
       height: 80px;
       display: flex;
       justify-content: center;
       align-items: center;
+      position: absolute;
 }
 .nav-container{
       width: 90%;
       height: 100%;
       display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.nav-logo{
+      border: none;
+      outline: none;
+      background-color: rgb(255, 217, 0);
+      font-weight: 900;
+      font-size: 24px;
+      padding: 5px 15px;
+}
+.left-nav-container{
+      display: flex;
+      align-items: center;
+      width: 50%;
+}
+.nav-links-container{
+      display: flex;
+      list-style: none;
+      width: 100%;
+      margin: 16px;
+}
+.nav-links{
+      margin: 24px;
+      text-decoration: none;
+      color: rgb(255, 217, 0);
+      font-size: 24px;
 }
