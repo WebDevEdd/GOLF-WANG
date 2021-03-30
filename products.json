@@ -207,6 +207,62 @@
                   "productPrice": 70,
                   "productName": "Zip Up Flannel Pink",
                   "productImgUrl": ""
-            }
+            },
+            {
+                  "id": 27,
+                  "productType": "sock",
+                  "productNew": false,
+                  "productPrice": 30,
+                  "productName": "Airlines Socks 3Pk",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 28,
+                  "productType": "sock",
+                  "productNew": false,
+                  "productPrice": 30,
+                  "productName": "G Socks 3Pk",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 29,
+                  "productType": "sock",
+                  "productNew": false,
+                  "productPrice": 40,
+                  "productName": "Golf Basic 3D Socks 3Pk",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 30,
+                  "productType": "sock",
+                  "productNew": false,
+                  "productPrice": 30,
+                  "productName": "Golfstar Socks 3Pk",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 31,
+                  "productType": "sock",
+                  "productNew": false,
+                  "productPrice": 35,
+                  "productName": "Gradient Socks 3Pk",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 32,
+                  "productType": "sock",
+                  "productNew": true,
+                  "productPrice": 30,
+                  "productName": "Logo Socks 3Pk",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 33,
+                  "productType": "sock",
+                  "productNew": false,
+                  "productPrice": 45,
+                  "productName": "Nate Socks 3Pk",
+                  "productImgUrl": ""
+            },
       ]
 }
