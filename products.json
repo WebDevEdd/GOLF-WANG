@@ -1,0 +1,116 @@
+{
+      "products": [
+            {
+                  "id": 1,
+                  "productType": "tee",
+                  "productNew": false,
+                  "productPrice": 30,
+                  "productName": "Airlines Tee",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 2,
+                  "productType": "tee",
+                  "productNew": false,
+                  "productPrice": 35,
+                  "productName": "Bulb Tee",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 3,
+                  "productType": "tee",
+                  "productNew": true,
+                  "productPrice": 40,
+                  "productName": "Golf 3D Mini Logo",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 4,
+                  "productType": "tee",
+                  "productNew": false,
+                  "productPrice": 40,
+                  "productName": "Multi Color 3D Golf",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 5,
+                  "productType": "tee",
+                  "productNew": false,
+                  "productPrice": 35,
+                  "productName": "Pen Is Tee",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 6,
+                  "productType": "tee",
+                  "productNew": false,
+                  "productPrice": 35,
+                  "productName": "Radio Tee",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 7,
+                  "productType": "tee",
+                  "productNew": false,
+                  "productPrice": 35,
+                  "productName": "Rope Tee",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 8,
+                  "productType": "tee",
+                  "productNew": false,
+                  "productPrice": 35,
+                  "productName": "Save The Bees",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 9,
+                  "productType": "tee",
+                  "productNew": false,
+                  "productPrice": 35,
+                  "productName": "Take Time Tee",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 10,
+                  "productType": "tee",
+                  "productNew": false,
+                  "productPrice": 35,
+                  "productName": "Whacko Tee",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 11,
+                  "productType": "tee",
+                  "productNew": false,
+                  "productPrice": 35,
+                  "productName": "Wonder Tee",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 12,
+                  "productType": "tee",
+                  "productNew": false,
+                  "productPrice": 35,
+                  "productName": "Radio Tee",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 13,
+                  "productType": "tee",
+                  "productNew": false,
+                  "productPrice": 35,
+                  "productName": "Golf Logo Tee",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 13,
+                  "productType": "tee",
+                  "productNew": true,
+                  "productPrice": 35,
+                  "productName": "Sucker Tee",
+                  "productImgUrl": ""
+            }
+      ]
+}
