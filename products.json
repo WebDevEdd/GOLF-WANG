@@ -304,5 +304,69 @@
                   "productName": "Big Romeo Trucker Hat",
                   "productImgUrl": ""
             },
+            {
+                  "id": 39,
+                  "productType": "bottoms",
+                  "productNew": false,
+                  "productPrice": 70,
+                  "productName": "Golf Logo Sweats Black",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 40,
+                  "productType": "bottoms",
+                  "productNew": false,
+                  "productPrice": 70,
+                  "productName": "Golf Logo Sweats Grey",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 41,
+                  "productType": "bottoms",
+                  "productNew": false,
+                  "productPrice": 35,
+                  "productName": "Logo Boxers 3Pk",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 42,
+                  "productType": "bottoms",
+                  "productNew": false,
+                  "productPrice": 85,
+                  "productName": "Rope Logo Denim Jeans",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 43,
+                  "productType": "bottoms",
+                  "productNew": false,
+                  "productPrice": 85,
+                  "productName": "Sherpa Fleece Pants Green",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 44,
+                  "productType": "bottoms",
+                  "productNew": false,
+                  "productPrice": 85,
+                  "productName": "Sherpa Fleece Pants Cream",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 45,
+                  "productType": "bottoms",
+                  "productNew": false,
+                  "productPrice": 85,
+                  "productName": "Work Pants Black",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 46,
+                  "productType": "bottoms",
+                  "productNew": false,
+                  "productPrice": 85,
+                  "productName": "Work Pants Green",
+                  "productImgUrl": ""
+            },
       ]
 }
