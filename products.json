@@ -105,11 +105,107 @@
                   "productImgUrl": ""
             },
             {
-                  "id": 13,
+                  "id": 14,
                   "productType": "tee",
                   "productNew": true,
                   "productPrice": 35,
                   "productName": "Sucker Tee",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 15,
+                  "productType": "top",
+                  "productNew": true,
+                  "productPrice": 50,
+                  "productName": "Golf Logo Crewneck Heather Grey",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 16,
+                  "productType": "top",
+                  "productNew": false,
+                  "productPrice": 60,
+                  "productName": "Golf Logo Hoodie Black",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 17,
+                  "productType": "top",
+                  "productNew": false,
+                  "productPrice": 60,
+                  "productName": "Golf Logo Hoodie Grey",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 18,
+                  "productType": "top",
+                  "productNew": false,
+                  "productPrice": 65,
+                  "productName": "Logo Crewneck Black",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 19,
+                  "productType": "top",
+                  "productNew": false,
+                  "productPrice": 80,
+                  "productName": "Reversible Plaid Puffy Vest Blue",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 20,
+                  "productType": "top",
+                  "productNew": false,
+                  "productPrice": 100,
+                  "productName": "Sherpa Fleexe Jacket Cream",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 21,
+                  "productType": "top",
+                  "productNew": false,
+                  "productPrice": 100,
+                  "productName": "Sherpa Fleece Jacket Green",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 22,
+                  "productType": "top",
+                  "productNew": false,
+                  "productPrice": 90,
+                  "productName": "Sherpa Vest Blue",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 23,
+                  "productType": "top",
+                  "productNew": false,
+                  "productPrice": 85,
+                  "productName": "Striped Mohair Cardigan",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 24,
+                  "productType": "top",
+                  "productNew": false,
+                  "productPrice": 50,
+                  "productName": "Toucan Button Up",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 25,
+                  "productType": "top",
+                  "productNew": false,
+                  "productPrice": 70,
+                  "productName": "Zip Up Flannel Green",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 26,
+                  "productType": "top",
+                  "productNew": false,
+                  "productPrice": 70,
+                  "productName": "Zip Up Flannel Pink",
                   "productImgUrl": ""
             }
       ]
