@@ -264,5 +264,45 @@
                   "productName": "Nate Socks 3Pk",
                   "productImgUrl": ""
             },
+            {
+                  "id": 34,
+                  "productType": "hat",
+                  "productNew": false,
+                  "productPrice": 50,
+                  "productName": "3D G 6 Panel Hat",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 35,
+                  "productType": "hat",
+                  "productNew": false,
+                  "productPrice": 60,
+                  "productName": "Airlines 5 Panel Hat",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 36,
+                  "productType": "hat",
+                  "productNew": false,
+                  "productPrice": 55,
+                  "productName": "Airlines 5 Panel Hat",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 37,
+                  "productType": "hat",
+                  "productNew": false,
+                  "productPrice": 55,
+                  "productName": "Allen Beanie",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 38,
+                  "productType": "hat",
+                  "productNew": false,
+                  "productPrice": 60,
+                  "productName": "Big Romeo Trucker Hat",
+                  "productImgUrl": ""
+            },
       ]
 }
