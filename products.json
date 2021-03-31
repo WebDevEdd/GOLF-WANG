@@ -340,7 +340,7 @@
                   "id": 43,
                   "productType": "bottoms",
                   "productNew": false,
-                  "productPrice": 85,
+                  "productPrice": 75,
                   "productName": "Sherpa Fleece Pants Green",
                   "productImgUrl": ""
             },
@@ -348,7 +348,7 @@
                   "id": 44,
                   "productType": "bottoms",
                   "productNew": false,
-                  "productPrice": 85,
+                  "productPrice": 75,
                   "productName": "Sherpa Fleece Pants Cream",
                   "productImgUrl": ""
             },
@@ -356,7 +356,7 @@
                   "id": 45,
                   "productType": "bottoms",
                   "productNew": false,
-                  "productPrice": 85,
+                  "productPrice": 90,
                   "productName": "Work Pants Black",
                   "productImgUrl": ""
             },
@@ -364,9 +364,113 @@
                   "id": 46,
                   "productType": "bottoms",
                   "productNew": false,
-                  "productPrice": 85,
+                  "productPrice": 90,
                   "productName": "Work Pants Green",
                   "productImgUrl": ""
             },
+            {
+                  "id": 47,
+                  "productType": "accessories",
+                  "productNew": false,
+                  "productPrice": 70,
+                  "productName": "Airlines Deck",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 48,
+                  "productType": "accessories",
+                  "productNew": false,
+                  "productPrice": 70,
+                  "productName": "Bulb Gloves",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 49,
+                  "productType": "accessories",
+                  "productNew": false,
+                  "productPrice": 75,
+                  "productName": "Golf Backpack",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 50,
+                  "productType": "accessories",
+                  "productNew": false,
+                  "productPrice": 25,
+                  "productName": "Golf Face Mask",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 51,
+                  "productType": "accessories",
+                  "productNew": false,
+                  "productPrice": 15,
+                  "productName": "Golf Lighter",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 52,
+                  "productType": "accessories",
+                  "productNew": false,
+                  "productPrice": 65,
+                  "productName": "Nate Deck",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 53,
+                  "productType": "accessories",
+                  "productNew": false,
+                  "productPrice": 60,
+                  "productName": "Plaid Tote Bag",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 54,
+                  "productType": "accessories",
+                  "productNew": false,
+                  "productPrice": 35,
+                  "productName": "Safari Sunglasses",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 55,
+                  "productType": "accessories",
+                  "productNew": false,
+                  "productPrice": 25,
+                  "productName": "Save The Bees Bandana",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 56,
+                  "productType": "accessories",
+                  "productNew": false,
+                  "productPrice": 80,
+                  "productName": "Sucker Deck",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 57,
+                  "productType": "accessories",
+                  "productNew": false,
+                  "productPrice": 20,
+                  "productName": "Take Time Mug",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 58,
+                  "productType": "accessories",
+                  "productNew": false,
+                  "productPrice": 15,
+                  "productName": "Toothbrush 3Pk",
+                  "productImgUrl": ""
+            },
+            {
+                  "id": 59,
+                  "productType": "accessories",
+                  "productNew": false,
+                  "productPrice": 5,
+                  "productName": "Toucan Sticker",
+                  "productImgUrl": ""
+            }
       ]
 }
