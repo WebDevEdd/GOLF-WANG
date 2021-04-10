@@ -225,6 +225,7 @@ function pushToCartStorage() {
       addToCart.forEach(btn => {
             btn.addEventListener('click', () => {
 
+
                   let card = btn.parentElement.parentElement;
                   let id = card.id;
                   let img = JSON.stringify(card.children[0].children[0].src);
