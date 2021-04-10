@@ -39,7 +39,36 @@
       ],
       "autumn 2020": [
             {
-                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/winter2020/winter1.jpg?raw=true"
+                  "key": 1,
+                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/autumn2020/autumn1.jpg?raw=true"
+            },
+            {
+                  "key": 2,
+                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/autumn2020/autumn2.jpg?raw=true"
+            },
+            {
+                  "key": 3,
+                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/autumn2020/autumn3.jpg?raw=true"
+            },
+            {
+                  "key": 4,
+                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/autumn2020/autumn4.jpg?raw=true"
+            },
+            {
+                  "key": 5,
+                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/autumn2020/autumn5.jpg?raw=true"
+            },
+            {
+                  "key": 6,
+                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/autumn2020/autumn6.jpg?raw=true"
+            },
+            {
+                  "key": 7,
+                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/autumn2020/autumn7.jpg?raw=true"
+            },
+            {
+                  "key": 8,
+                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/autumn2020/autumn8.jpg?raw=true"
             }
       ],
       "sumumer 2020": [
