@@ -16,6 +16,7 @@ function allProducts() {
 }
 allProducts();
 
+
 // changing category banner
 function categoryBanner(category) {
       const banner = document.getElementById('filter-banner-span');
@@ -92,19 +93,20 @@ function makeProductCards(filteredItems) {
 
             let newCard = `
             <div class="product-card" data-category="${category}" id="${id}">
+                  <div class="card-img-container">
                   <img class="product-img" src="${img}" alt="">
+                  <button class="add-to-cart">ADD TO CART</button>
+                  </div>
                   <div class="product-info">
-                        <p class="product-name">
-                              ${name}
-                        </p>
-                        <p class="product-price">
-                              $${price}
-                        </p>
+                        <p class="product-name">${name}</p>
+                        <p class="product-price">$<span>${price}</span></p>
                   </div>
             </div>
             `;
 
             productsSection.innerHTML += newCard;
+            pushToCartStorage();
+
 
       })
 }
@@ -177,6 +179,136 @@ function pagination(list) {
 
       makeProductCards(newList);
 }
+
+const cartItems = document.querySelector('.cart-items-container');
+
+
+
+
+
+function makeCartItems(id, image, name, price, qty) {
+      let newItem = document.createElement('div');
+      newItem.classList.add('cart-item');
+      newItem.setAttribute('id', id);
+
+      let card = `
+      <img id="${id}" class="cart-item-img" src="${image}" alt="">
+      <div class="cart-item-info">
+            <div class="cart-item-info-container">
+                  <p class="cart-item-name">${name}</p>
+                  <p class="cart-item-price">$<span>${price}</span></p>
+            </div>
+
+            <div class="cart-item-qty-container">
+                  <button class="qty-btn">-</button>
+                  <span class="cart-item-qty">${qty}</span>
+                  <button class="qty-btn">+</button>
+            </div>
+            <div class="cart-item-remove">
+                  <p class="remove-from-cart">REMOVE</p>
+            </div>
+      </div>
+      `
+
+      newItem.innerHTML = card;
+
+      cartItems.appendChild(newItem);
+
+
+}
+
+// push items to cart
+let cartList = [];
+
+function pushToCartStorage() {
+      const addToCart = document.querySelectorAll('.add-to-cart');
+      addToCart.forEach(btn => {
+            btn.addEventListener('click', () => {
+
+                  let card = btn.parentElement.parentElement;
+                  let id = card.id;
+                  let img = JSON.stringify(card.children[0].children[0].src);
+                  let name = JSON.stringify(card.children[1].children[0].textContent);
+                  let price = card.children[1].children[1].children[0].textContent;
+
+                  let cartItem = {
+                        "id": JSON.parse(id),
+                        "img": img,
+                        "name": name,
+                        "price": JSON.parse(price),
+                        "qty": 1
+                  }
+                  localStorage.setItem(id, JSON.stringify(cartItem));
+
+                  cartRows();
+
+            })
+      })
+}
+
+function cartRows() {
+      cartItems.innerHTML = '';
+      const storedItems = localStorage;
+      const storedItemKeys = Object.keys(storedItems);
+
+      storedItemKeys.forEach(key => {
+            const storedItemKeys = parseInt(key);
+
+            const storedItemsProps = JSON.parse(storedItems.getItem(storedItemKeys));
+
+            let id = storedItemsProps.id;
+            let image = JSON.parse(storedItemsProps.img);
+            let name = storedItemsProps.name;
+            let price = storedItemsProps.price;
+            let qty = storedItemsProps.qty;
+
+            makeCartItems(id, image, name, price, qty);
+
+      })
+      removeFromCart();
+      updateCartTotal();
+}
+
+function removeFromCart() {
+      const remove = document.querySelectorAll('.remove-from-cart');
+
+      remove.forEach(btn => {
+            btn.addEventListener('click', () => {
+                  localStorage.removeItem(btn.parentElement.parentElement.parentElement.id);
+                  btn.parentElement.parentElement.parentElement.style.display = 'none';
+                  updateCartTotal();
+            })
+      })
+
+}
+
+
+
+function updateCartTotal() {
+      const total = document.querySelector('.total-span');
+      const storedItems = localStorage;
+      const storedItemKeys = Object.keys(storedItems);
+
+      let prices = [];
+
+      storedItemKeys.forEach(key => {
+            const storedItemKeys = parseInt(key);
+            const storedItemsProps = JSON.parse(storedItems.getItem(storedItemKeys));
+
+            let price = storedItemsProps.price;
+
+            prices.push(price);
+
+      })
+
+      const cartTotal = prices.reduce((acc, cur) => {
+            return acc + cur;
+      }, 0);
+      total.innerHTML = cartTotal;
+}
+
+
+window.onload = cartRows;
 
 
 

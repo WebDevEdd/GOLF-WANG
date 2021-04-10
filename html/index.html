@@ -19,9 +19,11 @@
             <div class="nav-container">
                   <div class="left-nav-container">
                         <!-- NAV LOGO -->
-                        <button class="nav-logo">
-                              GOLF
-                        </button>
+                        <a href="../html/index.html">
+                              <button class="nav-logo">
+                                    GOLF
+                              </button>
+                        </a>
                         <!-- NAV LINKS -->
                         <ul class="nav-links-container">
                               <a href="shop.html" class="nav-links">
@@ -42,11 +44,37 @@
                         </ul>
                   </div>
                   <div class="right-nav-container">
-                        <a href="" class="nav-links">
-                              <p>
+
+                        <p class="nav-links cart-btn">
+                              CART
+                        </p>
+
+                  </div>
+            </div>
+            <div class="cart-wrapper cart-closed">
+                  <div class="cart-container">
+                        <div class="cart-top">
+                              <p class="cart-title">
                                     CART
                               </p>
-                        </a>
+                              <p class="cart-close-btn">
+                                    x
+                              </p>
+                        </div>
+                        <div class="cart-items-container">
+
+                        </div>
+                        <div class="cart-total">
+                              <p class="total">
+                                    SUBTOTAL: $<span class="total-span">0</span>
+                              </p>
+                              <p class="shipping">
+                                    SHIPPING AND TAXES CALCULATED AT CHECKOUT
+                              </p>
+                        </div>
+                        <button class="checkout">
+                              CHECKOUT
+                        </button>
                   </div>
             </div>
       </nav>
@@ -160,6 +188,8 @@
 
 
       </div>
+      <script src="/JS/products.js"></script>
+      <script src="/JS/cart.js"></script>
 </body>
 
 </html>

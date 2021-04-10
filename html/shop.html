@@ -19,9 +19,12 @@
             <div class="nav-container">
                   <div class="left-nav-container">
                         <!-- NAV LOGO -->
-                        <button class="nav-logo">
-                              GOLF
-                        </button>
+                        <a href="../html/index.html">
+                              <button class="nav-logo">
+                                    GOLF
+                              </button>
+                        </a>
+
                         <!-- NAV LINKS -->
                         <ul class="nav-links-container">
                               <a href="" class="nav-links">
@@ -42,11 +45,61 @@
                         </ul>
                   </div>
                   <div class="right-nav-container">
-                        <a href="" class="nav-links">
-                              <p>
+
+                        <p class="nav-links cart-btn">
+                              CART
+                        </p>
+
+                  </div>
+                  <!-- Cart inside nav -->
+            </div>
+            <div class="cart-wrapper cart-closed">
+                  <div class="cart-container">
+                        <div class="cart-top">
+                              <p class="cart-title">
                                     CART
                               </p>
-                        </a>
+                              <p class="cart-close-btn">
+                                    x
+                              </p>
+                        </div>
+                        <div class="cart-items-container">
+                              <div class="cart-item">
+                                    <img class="cart-item-img" src="../Images/PRODUCTS/TEES/GOLF LOGO TEE.jpg" alt="">
+                                    <div class="cart-item-info">
+                                          <div class="cart-item-info-container">
+                                                <p class="cart-item-name">
+                                                      3D LOGO TEE
+                                                </p>
+                                                <p class="cart-item-price">
+                                                      <span>$45</span>
+                                                </p>
+                                          </div>
+
+                                          <div class="cart-item-qty-container">
+                                                <button class="qty-btn">-</button>
+                                                <span class="cart-item-qty">1</span>
+                                                <button class="qty-btn">+</button>
+                                          </div>
+                                          <div class="cart-item-remove">
+                                                <p class="remove-from-cart">REMOVE</p>
+                                          </div>
+                                    </div>
+
+
+                              </div>
+                        </div>
+                        <div class="cart-total">
+                              <p class="total">
+                                    SUBTOTAL: $<span class="total-span">0</span>
+                              </p>
+                              <p class="shipping">
+                                    SHIPPING AND TAXES CALCULATED AT CHECKOUT
+                              </p>
+                        </div>
+                        <button class="checkout">
+                              CHECKOUT
+                        </button>
                   </div>
             </div>
       </nav>
@@ -151,6 +204,7 @@
             </div>
       </footer>
       <script src="../JS/products.js"></script>
+      <script src="/JS/cart.js"></script>
 </body>
 
 </html>
