@@ -149,6 +149,7 @@ footer{
       min-width: 300px;
       z-index: 100;
       transition: 0.6s ease all;
+      overflow-y: auto;
 }
 .cart-closed{
       transform: translateX(100%);

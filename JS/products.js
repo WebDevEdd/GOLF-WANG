@@ -200,9 +200,9 @@ function makeCartItems(id, image, name, price, qty) {
             </div>
 
             <div class="cart-item-qty-container">
-                  <button class="qty-btn">-</button>
+                  <button class="qty-btn less-btn">-</button>
                   <span class="cart-item-qty">${qty}</span>
-                  <button class="qty-btn">+</button>
+                  <button class="qty-btn more-btn">+</button>
             </div>
             <div class="cart-item-remove">
                   <p class="remove-from-cart">REMOVE</p>
@@ -265,6 +265,7 @@ function cartRows() {
             makeCartItems(id, image, name, price, qty);
 
       })
+      changeQuantity();
       removeFromCart();
       updateCartTotal();
 }
@@ -275,37 +276,72 @@ function removeFromCart() {
       remove.forEach(btn => {
             btn.addEventListener('click', () => {
                   localStorage.removeItem(btn.parentElement.parentElement.parentElement.id);
-                  btn.parentElement.parentElement.parentElement.style.display = 'none';
+                  let item = btn.parentElement.parentElement.parentElement;
+                  item.remove();
                   updateCartTotal();
             })
       })
 
 }
+function changeQuantity() {
+      const more = document.querySelectorAll('.more-btn');
+      const less = document.querySelectorAll('.less-btn');
+      more.forEach(btn => {
+            btn.addEventListener('click', () => {
+                  let quantity = btn.parentElement.children[1].textContent;
+                  quantity++;
+                  btn.parentElement.children[1].textContent = quantity;
+
+                  updateCartTotal();
+
+            })
+      })
+      less.forEach(btn => {
+            btn.addEventListener('click', () => {
+                  let cartItemId = btn.parentElement.parentElement.parentElement.id;
+                  let cartItem = btn.parentElement.parentElement.parentElement;
+                  let quantity = btn.parentElement.children[1].textContent;
+
+                  quantity--;
+                  if (quantity < 1) {
+                        localStorage.removeItem(cartItemId);
+                        cartItem.style.display = 'none';
+                        cartItem.remove();
+                        updateCartTotal();
+
+                  } else {
+                        btn.parentElement.children[1].textContent = quantity;
+
+                  }
+                  updateCartTotal();
 
 
+
+            })
+      })
+}
 
 function updateCartTotal() {
       const total = document.querySelector('.total-span');
-      const storedItems = localStorage;
-      const storedItemKeys = Object.keys(storedItems);
+      let calculatedPrices = [];
+      const cartRow = document.querySelectorAll('.cart-item');
+      cartRow.forEach(row => {
+            let quantity = row.children[1].children[1].children[1].textContent;
+            let currentPrice = row.children[1].children[0].children[1].children[0].textContent;
 
-      let prices = [];
+            let newPrice = quantity * currentPrice;
 
-      storedItemKeys.forEach(key => {
-            const storedItemKeys = parseInt(key);
-            const storedItemsProps = JSON.parse(storedItems.getItem(storedItemKeys));
-
-            let price = storedItemsProps.price;
-
-            prices.push(price);
+            calculatedPrices.push(newPrice);
 
       })
-
-      const cartTotal = prices.reduce((acc, cur) => {
+      const cartTotal = calculatedPrices.reduce((acc, cur) => {
             return acc + cur;
       }, 0);
       total.innerHTML = cartTotal;
+      console.log(cartTotal);
+
 }
+updateCartTotal2();
 
 
 window.onload = cartRows;
