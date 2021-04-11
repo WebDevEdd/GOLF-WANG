@@ -1,7 +1,7 @@
 const productsSection = document.querySelector('.products-container');
 
 function allProducts() {
-      fetch('../JSONdatabases/products.json')
+      fetch('products.json')
             .then(res => res.json())
             .then(data => {
                   const btn = document.getElementById('all');
@@ -65,7 +65,7 @@ filters();
 
 function getProducts(filter) {
       //fetch json products
-      fetch('../JSONdatabases/products.json')
+      fetch('products.json')
             .then(res => res.json())
             .then(data => {
                   const products = data.products;
@@ -116,7 +116,7 @@ function makeProductCards(filteredItems) {
 }
 
 function getNewProducts() {
-      fetch('../JSONdatabases/products.json')
+      fetch('products.json')
             .then(res => res.json())
             .then(data => {
                   const products = data.products;

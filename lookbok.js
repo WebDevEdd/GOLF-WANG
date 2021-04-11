@@ -3,7 +3,7 @@ const lookbook = document.querySelector('.lookbook-container');
 let filter = document.querySelectorAll('.filters');
 
 
-fetch('../JSONdatabases/lookbook.json')
+fetch('lookbook.json')
       .then(res => res.json())
       .then(data => {
             pageLoad(data);
