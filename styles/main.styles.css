@@ -24,6 +24,8 @@ body{
       justify-content: space-between;
       align-items: center;
 }
+
+
 .nav-logo{
       border: none;
       outline: none;
@@ -51,6 +53,14 @@ body{
       color: rgb(255, 217, 0);
       font-size: 24px;
       cursor: pointer;
+}
+@media only screen and (max-width: 620px){
+      .nav-links{
+            margin: 8px;
+      }
+      .nav-links-container{
+            margin: 0;
+      }
 }
 
 .sub-banner-container{
