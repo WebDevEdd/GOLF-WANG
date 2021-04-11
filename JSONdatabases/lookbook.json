@@ -1,5 +1,5 @@
 {
-      "winter 2020": [
+      "winter2020": [
             {
                   "key": 1,
                   "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/winter2020/winter1.jpg?raw=true"
@@ -37,7 +37,7 @@
                   "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/winter2020/winter9.jpg?raw=true"
             }
       ],
-      "autumn 2020": [
+      "autumn2020": [
             {
                   "key": 1,
                   "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/autumn2020/autumn1.jpg?raw=true"
@@ -71,24 +71,30 @@
                   "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/autumn2020/autumn8.jpg?raw=true"
             }
       ],
-      "sumumer 2020": [
+      "winter2019": [
             {
-                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/winter2020/winter1.jpg?raw=true"
-            }
-      ],
-      "autumn 2019": [
+                  "key": 1,
+                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/winter2019/winter20191.jpg?raw=true"
+            },
             {
-                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/winter2020/winter1.jpg?raw=true"
-            }
-      ],
-      "summer 2019": [
+                  "key": 2,
+                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/winter2019/winter20192.jpg?raw=true"
+            },
             {
-                  "img": "apples"
-            }
-      ],
-      "winter 2018": [
+                  "key": 3,
+                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/winter2019/winter20193.jpg?raw=true"
+            },
             {
-                  "img": "apples"
+                  "key": 4,
+                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/winter2019/winter20194.jpg?raw=true"
+            },
+            {
+                  "key": 5,
+                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/winter2019/winter20195.jpg?raw=true"
+            },
+            {
+                  "key": 6,
+                  "img": "https://github.com/WebDevEdd/GOLF-WANG/blob/master/Images/lookbook/winter2019/winter20196.jpg?raw=true"
             }
       ]
 }

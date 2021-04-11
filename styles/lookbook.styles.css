@@ -1,0 +1,71 @@
+.banner-wrapper{
+      width: 100%;
+      margin-top: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 250px;
+}
+.banner-container{
+      width: 95%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.banner{
+      font-size: 10vw;
+      color: rgb(255, 217, 0);
+}
+.filters-wrapper{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.filters-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 95%;
+      color: white;
+      flex-wrap: wrap;
+}
+.filters{
+      cursor: pointer;
+      text-transform: uppercase;
+}
+.active{
+      color: rgb(255, 217, 0);
+}
+.lookbook-wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.lookbook-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 64px;
+      width: 95%;
+}
+.big-photo{
+      height: 500px;
+      padding: 12px;
+}
+.small-photo{
+      height: 350px;
+      padding: 12px;
+}
+@media only screen and (max-width: 841px) {
+      .lookbook-container{
+            justify-content: center;
+      }
+      
+}
+@media only screen and (max-width: 500px) {
+      .filters{
+            font-size: 12px;
+      }
+}
